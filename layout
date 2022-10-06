@@ -97,16 +97,16 @@ top:
 # Node width. Possible value is a number (in px), auto or an @ sign followed by a column
 # name that contains the value for the width. Default is auto.
 
-width: 150
+width: auto
 
 # Node height. Possible value is a number (in px), auto or an @ sign followed by a column
 # name that contains the value for the height. Default is auto.
 
-height: 150
+height: auto
 
 # Collapsed state for vertices. Possible values are true or false. Default is false.
 
-collapsed: false
+collapsed: true
 
 # Padding for autosize. Default is 0.
 
@@ -127,7 +127,7 @@ nodespacing: 40
 
 # Spacing between levels of hierarchical layouts. Default is 100.
 
-levelspacing: 40
+levelspacing: 100
 
 # Spacing between parallel edges. Default is 40. Use 0 to disable.
 
@@ -137,7 +137,6 @@ edgespacing: 40
 # verticalflow, horizontalflow, organic, circle, orgchart or a JSON string as used in
 # Layout, Apply. Default is auto.
 
-layout: horizontaltree
-
+layout: orgchart
 # If the CSV at the given URL has no column names in the first line, then please
 # add them here as a comma-separated list, eg. name,location,id
