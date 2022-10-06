@@ -1,0 +1,5 @@
+name,position,id,location,manager,email,fill,stroke,refs,url,image
+A,CFO,emi,,,me@example.com,#dae8fc,#6c8ebf,,https://app.diagrams.net,
+B,Brand Manager,emo,,,me@example.com,#d5e8d4,#82b366,,https://app.diagrams.net,
+C,System Admin,rdo,,,me@example.com,#d5e8d4,#82b366,"B,D",https://app.diagrams.net,
+D,HR Director,tva,,,me@example.com,#d5e8d4,#82b366,,https://app.diagrams.net,
